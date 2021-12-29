@@ -1,0 +1,21 @@
+live url :-  https://airportnavigation.moreyeahs.in/
+
+(1) signup :- In this I have already created the sign up api by user
+
+In which I have taken different type of user field like such as name, phone number ,country Code,password ,birthday and image.
+
+As soon as the user signup, a token will be created with him for authentication.
+
+And in this the password will also be stored in the database in encrypted form.
+
+And whoever signs up there, the password will be hidden in his user details. 
+
+(2) login:-   Then after this I have created the API of user's login
+       In response to which the user's token will be created for authentication and the password will be hidden and all the details of the user will be whatever the user is login.
+       Now with the help of the token which is created through the login API in this, we will follow the full request further.
+       Now whoever login will be able to approach for further requests. User will login with phone number and password in which to decrypt the password
+
+(3) update user:- After that we have created API to update the user which will be the authenticate with the help of token created by login
+                            Whatever data of the user has been updated or needs to be done in the API, then the updated data will start in response and the show will be stored in the database as well.
+
+(4) 7710955555
